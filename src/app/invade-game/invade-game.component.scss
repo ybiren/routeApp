@@ -1,0 +1,13 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  .player {
+     position: absolute;
+     top: 90vh;
+     left: 0;
+     height: 2vh;
+     width: 5vw;
+     background: blue;
+  }
+}

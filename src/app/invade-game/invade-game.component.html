@@ -1,0 +1,9 @@
+<div class="container" (keydown)="movePlayer()" #elRef>
+
+  <div *ngFor="let item of bulletArr">
+      <app-bullet [ind]="item.Ind" [leftPosition]="item.leftPosition" ></app-bullet>
+  </div>
+
+  <div class="player" [ngStyle]="getPlayerPos()"   >
+  </div>
+</div>

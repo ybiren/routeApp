@@ -1,0 +1,17 @@
+div[class^="col-sm"] {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.container-fluid {
+  margin-left: 10px;
+  width: calc(100vw - 20px);
+}
+
+.person {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}

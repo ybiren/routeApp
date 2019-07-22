@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-7 offset-5">This is my header</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4" (click)="openModal()">
+        <div class="person mr-2">+</div>
+    </div>
+    <div class="col-sm-4" *ngFor="let user of users">
+        <div class="person mr-2" on-click="openDisplayModal(user)">
+          <div>{{user.name}}</div>
+          <div>{{user.age}}</div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<textarea cols="10" rows="10" [textContent]="txt">
+</textarea>
